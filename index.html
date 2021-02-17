@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEM</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">TITLE</h1>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-list__item">item 1</li>
+        <li class="header__nav-list__item">item 2</li>
+        <li class="header__nav-list__item">item 3</li>
+        <li class="header__nav-list__item">item 4</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="news">
+    <aside class="news-aside">
+      <nav class="news-aside__nav">
+        <ul class="news-aside__nav-list">
+          <li class="news-aside__nav-list__item">item 1</li>
+          <li class="news-aside__nav-list__item">item 2</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <section class="news">
+      <article class="news__item news__item--main">
+        <h2>TITLE MAIN NEWS</h2>
+        <h4>Date: <time>2021-02-17</time></h4>
+        <p>Lorem...</p>
+      </article>
+
+      <article class="news__item">
+        <h3>title other news</h3>
+        <h4>Date: <time>2021-02-17</time></h4>
+        <p>Lorem...</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">JUST FOOTER</footer>
+</body>
+</html>
