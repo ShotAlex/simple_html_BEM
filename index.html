@@ -19,39 +19,39 @@
     </nav>
   </header>
 
-  <main class="news">
-    <aside class="news-aside">
-      <nav class="news-aside__nav">
-        <ul class="news-aside__nav-list">
-          <li class="news-aside__nav-list__item">item 1</li>
-          <li class="news-aside__nav-list__item">item 2</li>
+  <main class="main">
+    <aside class="main-aside">
+      <nav class="main-aside__nav">
+        <ul class="main-aside__nav-list">
+          <li class="main-aside__nav-list__item">item 1</li>
+          <li class="main-aside__nav-list__item">item 2</li>
         </ul>
       </nav>
     </aside>
 
-    <article class="news">
-      <h2>NEWS MAIN</h2>
+    <article class="main-news">
+      <h2 class="main-news__title">NEWS MAIN</h2>
 
-      <section class="news__item news__item--main">
-        <h2>TITLE MAIN NEWS</h2>
-        <h4>Date: <time datetime="2021-02-17">2021-02-17</time></h4>
-        <p>Lorem...</p>
+      <section class="main-news-item ">
+        <h2 class="main-news-item__title">TITLE MAIN NEWS</h2>
+        <h4 class="main-news-item__time">Date: <time datetime="2021-02-17">2021-02-17</time></h4>
+        <p class="main-news-item__text">Lorem...</p>
       </section>
 
-      <section class="news__item">
-        <h3>NEWS</h3>
-        <aside>
-          <h3>title other news</h3>
-          <h5>Date: <time datetime="2021-02-17">2021-02-17</time></h5>
-          <p>Lorem...</p>
-        </aside>
-        <aside>
-          <h3>title other news</h3>
-          <h4>Date: <time datetime="2021-02-17">2021-02-17</time></h4>
-          <p>Lorem...</p>
-        </aside>
+      <article class="main-news-item">
+        <h2 class="main-news-item__title">NEWS</h2>
 
-      </section>
+        <section class="main-news-item-news">
+          <h3 class="main-news-item-news__title">title other news</h3>
+          <h4 class="main-news-item-news__time">Date: <time datetime="2021-02-17">2021-02-17</time></h4>
+          <p class="main-news-item-news__text">Lorem...</p>
+        </section>
+        <section class="main-news-item-news">
+          <h3 class="main-news-item-news__title">title other news</h3>
+          <h4 class="main-news-item-news__time">Date: <time datetime="2021-02-17">2021-02-17</time></h4>
+          <p class="main-news-item-news__text">Lorem...</p>
+        </section>
+      </article>
     </article>
   </main>
 
